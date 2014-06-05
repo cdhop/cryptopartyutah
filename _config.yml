@@ -1,0 +1,11 @@
+# Site settings
+title: CryptoParty - Utah
+email: cdhop@disquietingcandor.net
+description: "Party like it's December 31st, 1983"
+baseurl: ""
+url: "http://cryptopartyutah.org"
+username: cdhop
+
+# Build settings
+markdown: kramdown
+permalink: pretty
