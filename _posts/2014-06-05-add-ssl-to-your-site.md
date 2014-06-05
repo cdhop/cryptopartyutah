@@ -146,8 +146,8 @@ Next, is the 'default-ssl.conf' file (This one is more involved).
 	    SSLProtocol ALL -SSLv2
 	    SSLHonorCipherOrder On
 	    SSLCipherSuite "EECDH+ECDSA+AESGCM EECDH+aRSA+AESGCM EECDH+ECDSA+SHA384 
-	    				EECDH+ECDSA+SHA256 EECDH+aRSA+SHA384 EECDH+aRSA+SHA256 
-	    				EECDH EDH+aRSA 3DES +3DES !aNULL !eNULL !LOW !MD5 !EXP"
+	    			EECDH+ECDSA+SHA256 EECDH+aRSA+SHA384 EECDH+aRSA+SHA256 
+	    			EECDH EDH+aRSA 3DES +3DES !aNULL !eNULL !LOW !MD5 !EXP"
 
     </VirtualHost>
     </IfModule>
@@ -164,7 +164,7 @@ Note: If your private key is encrypted, then you will be prompted for your passw
 
 ### Step 4: Testing your site
 
-Now it is time to verify that your site is working with SSL.  Certainly, visiting the site is a good step, but there is a tool available online with will give your sites SSL Configuration a through testing.  
+Now it is time to verify that your site is working with SSL.  Certainly, visiting the site is a good step, but there is a tool available online with will give your sites SSL Configuration a thorough testing:
 
 [SSL Labs](https://ssllabs.com/ssltest) 
 
