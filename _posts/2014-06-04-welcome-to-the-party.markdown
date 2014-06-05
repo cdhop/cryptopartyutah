@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to the Party!"
 date:   2014-06-04 08:03:56
-categories: jekyll update
+categories: announcement
 ---
 
 On this, the first anniversary of the Snowden revelations, we announce the formation of CryptoParty - Utah.  Many people have become concerned 
