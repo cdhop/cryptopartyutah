@@ -51,7 +51,8 @@ A signed certificate is used by a browser to authenticate, and help setup secure
 which is recognized by most browsers to authenticate sites using SSL/TLS.  In order to get a CA to generate a signed certificate you must verify your information, and 
 usually pay a fee for their service (Note: there are some 'free' certificate authorities).  
 
-Generally, there are three 'levels' of verification/validation by CAs
+Generally, there are three 'levels' of verification/validation by CAs:
+
 * Domain validation - usually they will send an email message to one of the email addresses associated with the domain name registration.
 * Organization validation - The CA will investigate your organization to verify its legitimacy (usually more expensive)
 * Extended validation - Like Organization validation, but even more rigorous (usually done with large organizations and financial institutions)
