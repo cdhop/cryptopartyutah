@@ -147,8 +147,8 @@ Next, is the 'default-ssl.conf' file (This one is more involved).
 	    SSLProtocol ALL -SSLv2
 	    SSLHonorCipherOrder On
 	    SSLCipherSuite "EECDH+ECDSA+AESGCM EECDH+aRSA+AESGCM EECDH+ECDSA+SHA384 
-	    			EECDH+ECDSA+SHA256 EECDH+aRSA+SHA384 EECDH+aRSA+SHA256 
-	    			EECDH EDH+aRSA 3DES +3DES !aNULL !eNULL !LOW !MD5 !EXP"
+	 		EECDH+ECDSA+SHA256 EECDH+aRSA+SHA384 EECDH+aRSA+SHA256 
+	    		EECDH EDH+aRSA 3DES +3DES !aNULL !eNULL !LOW !MD5 !EXP"
 
     </VirtualHost>
     </IfModule>
@@ -163,9 +163,9 @@ Once you are satified the these files, you'll need to restart Apache to make you
 
 Note: If your private key is encrypted, then you will be prompted for your password.
 
-### Step 4: Testing your site
+### Step 4: Test Your Site
 
-Now it is time to verify that your site is working with SSL.  Certainly, visiting the site is a good step, but there is a tool available online with will give your sites SSL Configuration a thorough testing:
+Now it is time to verify that your site is working with SSL.  Certainly, visiting the site is a good step, but there is a tool available online with will give your site's SSL Configuration a thorough testing:
 
-[SSL Labs](https://ssllabs.com/ssltest) 
+[SSL Labs - SSL Test](https://ssllabs.com/ssltest) 
 
