@@ -9,3 +9,4 @@ username: cdhop
 # Build settings
 markdown: kramdown
 permalink: pretty
+paginate: 1
