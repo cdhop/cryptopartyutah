@@ -14,6 +14,10 @@ There are a many privacy related resources available on the Internet.  Here is o
 * [Tails](https://tails.boum.org) - The Amnesic Incognito Live System): Privacy for anyone anywhere
 * [GPG Tools](https://gpgtools.org) - Gnu Privacy Guard Tools for Macintosh OS X
 * [i2p](https://geti2p.net) - The Invisible Internet Project
+* [Disconnect](https://disconnect.me) - Anti-tracking browser plug-in
+* [Lightbeam](https://addons.mozilla.org/en-US/firefox/addon/lightbeam/) - Web interaction visualizer
+* [Privacy Badger](https://www.eff.org/privacybadger) - Blocks spying ads and invisible trackers
+* [HTTPS Everywhere](https://www.eff.org/https-everywhere) - Secure Communications browser plug-in
 
 #### Activism
 
