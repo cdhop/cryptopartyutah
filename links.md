@@ -18,6 +18,7 @@ There are a many privacy related resources available on the Internet.  Here is o
 * [Lightbeam](https://addons.mozilla.org/en-US/firefox/addon/lightbeam/) - Web interaction visualizer
 * [Privacy Badger](https://www.eff.org/privacybadger) - Blocks spying ads and invisible trackers
 * [HTTPS Everywhere](https://www.eff.org/https-everywhere) - Secure Communications browser plug-in
+* [KeePassX](https://www.keepassx.org/) - Open Source Password Manager
 
 #### Activism
 
