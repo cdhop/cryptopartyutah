@@ -57,14 +57,11 @@ You should now have the Tor service running on your system.  Time for the next s
 
 #### Step 2: Install a Web Server
 
-In most cases, a hidden service is just a website accessible through Tor.  As with any other website, we will need a webserver.  Any webserver will do the job, but there are some special 
-considerations associated with running a hidden-service.  
+In most cases, a hidden service is just a website accessible through Tor.  As with any other website, we will need a webserver.  Any webserver will do the job.
 
-Probably the most important is to configure the webserver to only answer queries from the host itself.  It will still 'work' if you don't 
-do this, but it could defeat your efforts to be anonymous if your site can be reached from outside the Tor network. 
+I would suggest configuring the webserver to only listen to requests from the local server.  The reason is that this will force all interaction with the server through the Tor network.
 
-Because there are many different webservers, and several tutorials available, I will not go into any further details on how to 
-configure them.
+Because there are many different webservers, and several tutorials available, I will not go into any further details on how to configure them.
 
 Note: Your hidden service can be any service commonly available on the Internet (ssh, IRC, etc).
 
