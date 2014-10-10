@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Setting up a Tor Hidden Service"
-date:   2014-10-20 07:46:00
+date:   2014-10-10 07:46:00
 categories: howto
 ---
 
