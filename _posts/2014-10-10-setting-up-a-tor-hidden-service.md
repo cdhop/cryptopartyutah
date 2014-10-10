@@ -17,15 +17,18 @@ him a mask, and he will tell you the truth."  Tor hidden services provide a mean
 
 While you can run a hidden service on any computer, and nearly any operating system, it is recommended (for security reasons) to use open source software.  The reason is that open source software
 can be audited, and changed by the community that uses it, and is therefore more trustworthy than proprietary software (where they may have be beholden to other groups and interests).
-This tutorial describes how to use software provided by the Debian and Tor Projects to create a hidden service.  It is generally a good idea (for availablity) to place the service on a 
+This tutorial describes how to use software provided by the Debian and Tor Projects to create a hidden service.  
+
+It is generally a good idea (for availablity) to place the service on a 
 system with a 'always on' connection to the Internet.  You should be mindful of any acceptable use policies if you plan on hosting the service with a provider.
 
 
 #### Step 1: Install Tor
 
 Anyone who has spent even a limited amount of time with debian-based systems are familiar with its software package management system.  Instead of installing Tor from source (which is possible), 
-I prefer to use package-management whenever possible.  While Tor is available from the default debian project repositories, it is usually not as up to date as from the Tor Project repositories.  
-So we will first install the Tor Project's repositories into the Debian package management system.
+I prefer to use package-management whenever possible (easier to update and maintain).  
+
+While Tor is available from the default debian project repositories, it is usually not as up to date as from the Tor Project repositories.  So we will first install the Tor Project's repositories into the Debian package management system.
 
 The default repositories are found in the /etc/apt/sources.list file.  You can add the Tor Project's repository by adding the following line to the file:
 
@@ -55,12 +58,15 @@ You should now have the Tor service running on your system.  Time for the next s
 #### Step 2: Install a Web Server
 
 In most cases, a hidden service is just a website accessible through Tor.  As with any other website, we will need a webserver.  Any webserver will do the job, but there are some special 
-considerations associated with running a hidden-service.  Probably the most important is to configure the webserver to only answer queries from the host itself.  It will still 'work' if you don't 
-do this, but it could defeat your efforts to be anonymous if your site can be reached from outside the Tor network.  Additionally, placing the webserver inside it own virtual machine could help 
-mitigate the security risks associated with running a hidden service. Because there are many different webservers, and several tutorials available, I will not go into any further details on how to 
+considerations associated with running a hidden-service.  
+
+Probably the most important is to configure the webserver to only answer queries from the host itself.  It will still 'work' if you don't 
+do this, but it could defeat your efforts to be anonymous if your site can be reached from outside the Tor network. 
+
+Because there are many different webservers, and several tutorials available, I will not go into any further details on how to 
 configure them.
 
-Note: Your hidden service does not need to be a website, it could be any service commonly available on the Internet.
+Note: Your hidden service can be any service commonly available on the Internet (ssh, IRC, etc).
 
 #### Step 3: Configure the Hidden Service
 
