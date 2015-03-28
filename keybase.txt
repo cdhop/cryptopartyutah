@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/cdhop
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://cryptopartyutah.org
+  * I am cdhop (https://keybase.io/cdhop) on keybase.
+  * I have a public key with fingerprint DD20 0640 7227 1479 17AF  4D8F BC64 B990 C867 0D8D
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "dd2006407227147917af4d8fbc64b990c8670d8d",
+            "host": "keybase.io",
+            "key_id": "bc64b990c8670d8d",
+            "kid": "01011010dd3152445afe0fcc913b0bc5b5aa93b4025c82a57fac6a55ac51f8eed9340a",
+            "uid": "8380554e3a73325d66169126f2b25719",
+            "username": "cdhop"
+        },
+        "service": {
+            "hostname": "cryptopartyutah.org",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1427507884,
+    "expire_in": 157680000,
+    "prev": "476a00bca0122a0b2d6572faa3ac7d003e88349bba838bb2d067bac624bba073",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owFtUn9MlGUcv4Mg76bHUcJCiNxL4Iagz/v7fe8qNUf4h6gDbSYIPO+vu3fQ+x7v
+HeB1wRZh/AgNzZysg0SwtAPakiVsp1YSuIGQy6mU0Whsku6CSuOHYr3H8r+ePduz
+5/P9fD7ffb77Nq+KNJiNQaG/+Ypj1SHj8G+cYU+8ud+HcKrgRWw+pERcfiRZcYia
+S5MVD2JDBAEDgCIAjWE0StAsSkOJEBiJ4ymCY1nAMxQNBEZAMhCn6g4rdBsOusUN
+sqpj+qdIFnT0f/glywWAAlS/QBBwlMQIgoSSCCSeZ1GcAxxPciSELM4RACN5BoMk
+LUGegiQJeRKVGFEUWJwAULcrX7ZjcAaQJCHikMZxjBQoCqVYFKMkjMNIGmXDRLeo
+KfBNUWfzglN1IVUZiA5VyLwYzh+O8aSseV0e1QU1j7fcA50bVM2h612a6lF5tVQn
+OD0el9sWNvB4XWFFpcgV/edVxMmKoM9SV1SImltWFcSG6kzeI4fNUQKjSUAzDJGB
+iAdcsiYWyWEGSVMM0E+4j1ihWxI0BYE+CQhQDIOAwwSKpDEJQhzytAAALjIMTrAc
+B/XsnF4GFM3pM8IIHQI0joTTlSkqYtM7eaBDt3TLDgV6oss1EakyN0QkPWUwmg3R
+URHhfTCYTdYnS7LrtZilNZbGy3yi5Xm/w7BN+9Cel5B79KelnND11C9ci3FNpWzr
+wPy++0rTTJ01ZuiZyc9M+6NbnaHmb4cdY1F/rOxNaq2/G6h5JflH/8++iBUtXz7y
+ta1PsL7we92L7YMbT9+YfS/BV5oViujee4TM9IqVbe8Wc9dqRwwWpNiys+Ov76IU
+u3I73/nr9lvwuV/OxQ7UBsvWTV7tmFl3p7QsaSar+razpHP3Wfv5xuIHDTdDZ68o
+0mSv/1FMSk977A9JPX3TmQlxc45LZ7KvqVLAFPSH+nLGNj9c6N43/vQ79voTkvfi
+n7umrn58+vOt3tVB+MaJMbtrctPLNW87FvY/njBNpa7s8e2YfbZp6v2W812BxMqg
+OH0y7a2xCT5lZOO5wvm5NYzlZnmhGmcYMFoscqY9Pj+rs5uv/eruwUB6b8NHpaYQ
+NG/K/qBzKUjM1u78p7nHnjl7Q8tOXI+uHV5oMo4fP+j0s4199bWROwqs+afSL/T3
+Oedfigx8MjFeneL72942OmaYrR5E+qdTP8W+PlVZ4NtyqQ45tjXtQo0j75uh9iVw
+2Jphq0xecR8Hx2Iqqirg3thXQc5q60m8yza95SHXkTYxuDiaN3SrwLj7waH43Mdd
+xL0zrRHunPTjcUeTlded2YN+Syy9ec9cy5E76L2LhYvbvx/tGTmQEn89aq2Qu810
+OUb4Fw==
+=ESpD
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cdhop
+
+==================================================================
+
