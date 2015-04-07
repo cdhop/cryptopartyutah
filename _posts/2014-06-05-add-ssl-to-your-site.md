@@ -144,11 +144,9 @@ Next, is the 'default-ssl.conf' file (This one is more involved).
         SSLCertificateKeyFile /etc/ssl/private/yourdomain.key
         SSLCertificateChainFile /etc/ssl/certs/yourdomain.chain
 
-	    SSLProtocol ALL -SSLv2
+	    SSLProtocol ALL -SSLv2 -SSLv3
 	    SSLHonorCipherOrder On
-	    SSLCipherSuite "EECDH+ECDSA+AESGCM EECDH+aRSA+AESGCM EECDH+ECDSA+SHA384 
-	 		EECDH+ECDSA+SHA256 EECDH+aRSA+SHA384 EECDH+aRSA+SHA256 
-	    		EECDH EDH+aRSA 3DES +3DES !aNULL !eNULL !LOW !MD5 !EXP"
+	    SSLCipherSuite AES256+EECDH:!aNULL
 
     </VirtualHost>
     </IfModule>
