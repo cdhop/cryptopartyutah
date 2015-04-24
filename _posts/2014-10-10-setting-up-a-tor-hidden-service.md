@@ -69,7 +69,7 @@ Note: Your hidden service can be any service commonly available on the Internet 
 
 Now that you have Tor and a webserver installed and running, its time to configure the hidden service.  In order to do this, we will need to reconfigure the tor service;  The tor service is configured
 using the /etc/tor/torrc file.  Inside the torrc file there is a section for 'location-hidden services.'  There will be some example configurations for hidden services (commented out).  They will look
-similar to this:
+similar to this (uncomment them):
 
     # HiddenServiceDir /var/lib/tor/hidden_service/
     # HiddenServicePort 80 127.0.0.1:8080
