@@ -43,7 +43,7 @@ compromised one service is undermined.
 
 ### Password Managers
 
-Unless you have a photography memory, maintaining a list of all your credentials can
+Unless you have a photographic memory, maintaining a list of all your credentials can
 be overwhelming.  Writing them down would help, but then you would run the risks of
 losing your list, not having it available when you need it, and/or being compromised.
 

@@ -65,8 +65,7 @@ their chain of trust.
 As an alternative, you can 'self-sign' and generate your own certificate.  This is simpler and usually cheaper that getting one from a CA, but will most probably 
 cause a visitor's browser to alert and warn of 'an untrusted site'.  To generate your own certificate, use OpenSSL as follows:
 
-    # openssl x509 -req -days 365 -in yourdomain.csr -signkey yourdomain.key -out /
-      yourdomain.crt
+    # openssl x509 -req -days 365 -in yourdomain.csr -signkey yourdomain.key -out yourdomain.crt
 
 Explanation:
 
