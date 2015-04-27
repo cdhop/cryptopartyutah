@@ -17,9 +17,13 @@ footer{
     padding-bottom:  60px;
 }
 #content{
+    padding-left: 1em;
+    padding-right: 1em;
 	padding-bottom: 40px;
 }
 #about{
+    padding-left: 1em;
+    padding-right: 1em;
 	background-color: #555;
     padding-top: 10px;
     padding-bottom: 20px;
