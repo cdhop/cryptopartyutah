@@ -29,3 +29,4 @@ There are a many privacy related resources available on the Internet.  Here is o
 
 * [EFF's Surveillance Self-Defense](https://ssd.eff.org) - Providing the information and tools necessary to evaluate the threat of surveillance and take appropraite steps to defend against it.
 * [CryptoParty](https://cryptoparty.io) - Party like it's December 31st, 1983
+* [The Intercept: Micah Lee](https://firstlook.org/theintercept/staff/micah-lee/) - Former EFF staffer who writes about technical threats to your privacy, and what you can do to protect yourself.
