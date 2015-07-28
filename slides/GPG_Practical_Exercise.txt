@@ -1,0 +1,74 @@
+GPG Practical Exercise
+
+1.  Generate a keypair
+
+   $ gpg --gen-key
+
+2.  Generate a revocation certificate
+
+   $ gpg --armor --output <your key id>.asc.revoke --gen-revoke <your key id>
+
+3.  Send your public key to the key server
+
+   $ gpg --send-keys --keyserver keyserver.cryptopartyutah.org <your key id>
+
+4.  Display your fingerprint
+
+   $ gpg --fingerprint <your key id>
+
+5.  Retrieve the someone else's public key from the keyserver
+
+   $ gpg --recv-keys --keyserver keyserver.cryptopartyutah.org <their key id>
+   
+6.  Verify their key's fingerprint
+
+   $ gpg --fingerprint <their key id>
+
+7.  After verifying their fingerprint(s), sign their keys
+
+   $ gpg --sign-key <their key id>
+
+8.  Edit the key and set your level of trust
+
+   $ gpg --edit-key <their key id>
+   gpg> trust
+   Your decision? (1-5)
+   gpg> quit
+
+9.  Export the public key(s) you signed and send them to their owners
+
+   $ gpg --armor --output <their key id/email address>.asc  --export <their key id>
+
+10.  Import your signed keys that you received
+
+   $ gpg --import <filename>.asc
+
+11.  Compose a message (recommend that you save it to a text file - You can securely delete it later with the srm/shred commands).
+
+12.  Encrypt and Sign your message, and send it to the people you exchanged keys with earlier.
+
+   $ gpg --armor --output message.asc --sign --encrypt message
+
+
+
+13.  Decrypt and verify the message you received
+
+   $ gpg --output message --decrypt message.asc
+
+(Optional)
+
+14.  Send your signed public key to the key server
+
+  $ gpg --send-keys --keyserver keyserver.cryptopartyutah.org <your key id> 
+
+15.  View your/others keys on the key server's web interface
+
+  https://keyserver.cryptopartyutah.org
+
+16.  Sign an existing file (for example a pdf), and send it (and the generated signature) to someone else
+
+  $ gpg --armor --output file.pdf.sig.asc --detach-sign file.pdf
+
+17.  Verify the signature and file you received
+
+  $ gpg --verify file.pdf.sig.asc file.pdf
