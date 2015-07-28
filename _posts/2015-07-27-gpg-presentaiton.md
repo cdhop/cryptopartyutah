@@ -7,8 +7,8 @@ categories: resources
  
 I am posting links to the slides and practical exercise for those of you who attended the GPG Presentation tonight at the SLC Linux User Group.
 
-* [Introduction To GPG](https://cryptopartyutah.org/slides/IntroductionToGPG.pdf)
-* [Practical Exercise](https://cryptopartyutah.org/slides/GPG_Practical_Exercise.txt)
+* [Introduction To GPG](/slides/IntroductionToGPG.pdf)
+* [Practical Exercise](/slides/GPG_Practical_Exercise.txt)
 
 Next up, DEFCON 23! 
 
