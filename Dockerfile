@@ -1,4 +1,4 @@
-FROM nginx:1.7.11
+FROM nginx:latest
 
 COPY _site /usr/share/nginx/html
 
