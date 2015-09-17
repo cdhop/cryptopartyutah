@@ -1,0 +1,25 @@
+{
+	"command":[],
+	"creatingUser":null,	
+	"env":{},	
+	"expires":null,
+	"gracePeriod":null,
+	"healthCheck":null,
+	"hostname":null,
+	"id":"cryptoparty:8f109d4dcd4990dcf49b32b32fd082b70c451d65",
+	"image":"cdhop/cryptoparty",
+	"networkMode":null,
+	"ports":{
+		"http":{
+			"externalPort":81,
+			"internalPort":80,
+			"protocol":"tcp"
+		}
+	},
+	"registration":{},
+	"registrationDomain":"",
+	"resources":null,
+	"securityOpt":[],
+	"token":"",
+	"volumes":{}
+}
