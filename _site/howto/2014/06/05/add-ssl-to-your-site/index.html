@@ -81,13 +81,14 @@ below.</p>
 <p>We will be using OpenSSL for this step.  There are a number of options (which we will explain) available.  We will start with the following
 command:</p>
 
-<pre><code># openssl req -new -newkey rsa:4096 -keyout yourdomain.key -out yourdomain.csr
+<div class="highlighter-rouge"><pre class="highlight"><code># openssl req -new -newkey rsa:4096 -keyout yourdomain.key -out yourdomain.csr
 </code></pre>
+</div>
 
 <p>Explanation:</p>
 
 <ul>
-  <li>‘req -new’ tells openssl that we will be creating a CSR </li>
+  <li>‘req -new’ tells openssl that we will be creating a CSR</li>
   <li>‘-newkey’ we will also be creating a private key</li>
   <li>‘rsa:4096’ the private key will be a RSA key with a keysize of 4096 bits (Note: the minimum keysize currently accepted by certificate authorities is 2048)</li>
   <li>‘-keyout yourdomain.key’ specify the filename of the private key (Please change ‘yourdomain’ to your domain name)</li>
@@ -100,7 +101,7 @@ then include ‘-nodes’ after the ‘rsa:4096’ option.</p>
 <p>OpenSSL will prompt you for a passphase for your key (unless you included the ‘-nodes’ option), and ask you for additional information (some of which is optional).<br />
 Once you finish, you will have a private key and CSR.</p>
 
-<p>On Debian/Ubuntu, you will generally want to store your private key in the ‘/etc/ssl/private’ directory. </p>
+<p>On Debian/Ubuntu, you will generally want to store your private key in the ‘/etc/ssl/private’ directory.</p>
 
 <p>You will use the CSR in the next step to obtain your certificate.</p>
 
@@ -108,7 +109,7 @@ Once you finish, you will have a private key and CSR.</p>
 
 <p>A signed certificate is used by a browser to authenticate, and help setup secure communications using SSL/TLS.  A Certificate Authority (CA) is a trusted organization
 which is recognized by most browsers to authenticate sites using SSL/TLS.  In order to get a CA to generate a signed certificate you must verify your information, and 
-usually pay a fee for their service (Note: there are some ‘free’ certificate authorities).  </p>
+usually pay a fee for their service (Note: there are some ‘free’ certificate authorities).</p>
 
 <p>Generally, there are three ‘levels’ of verification/validation by CAs:</p>
 
@@ -126,20 +127,21 @@ their chain of trust.</p>
 <p>As an alternative, you can ‘self-sign’ and generate your own certificate.  This is simpler and usually cheaper that getting one from a CA, but will most probably 
 cause a visitor’s browser to alert and warn of ‘an untrusted site’.  To generate your own certificate, use OpenSSL as follows:</p>
 
-<pre><code># openssl x509 -req -days 365 -in yourdomain.csr -signkey yourdomain.key -out yourdomain.crt
+<div class="highlighter-rouge"><pre class="highlight"><code># openssl x509 -req -days 365 -in yourdomain.csr -signkey yourdomain.key -out yourdomain.crt
 </code></pre>
+</div>
 
 <p>Explanation:</p>
 
 <ul>
   <li>‘x509 -req’ tells openssl that we will be creating a signed-certificate</li>
   <li>‘-days 365’ our certificate will be valid for one year (most certificates are signed by CAs for the length of period)</li>
-  <li>‘-in yourdomain.csr’ OpenSSL will use the CSR you generated in Step One </li>
+  <li>‘-in yourdomain.csr’ OpenSSL will use the CSR you generated in Step One</li>
   <li>‘-signkey yourdomain.key’ OpenSSL will use your private key to ‘sign’ the certificate</li>
   <li>‘-out yourdomain.crt’ specify the filename of the certificate</li>
 </ul>
 
-<p>Once you have your certificate(s) you will generally want to keep them in ‘certs’ directory.  On Debian/Ubuntu systems the ‘certs’ directory is, ‘/etc/ssl/certs’.  </p>
+<p>Once you have your certificate(s) you will generally want to keep them in ‘certs’ directory.  On Debian/Ubuntu systems the ‘certs’ directory is, ‘/etc/ssl/certs’.</p>
 
 <h3 id="step-3-configuring-your-webserver-to-use-ssl">Step 3: Configuring your webserver to use SSL</h3>
 
@@ -149,34 +151,37 @@ cause a visitor’s browser to alert and warn of ‘an untrusted site’.  To ge
 
 <p>You will need to enable a few Apache modules in order to use SSL/TLS.  You can enable these modules with the following commands:</p>
 
-<pre><code># a2enmod ssl
+<div class="highlighter-rouge"><pre class="highlight"><code># a2enmod ssl
 # a2enmod headers
 # a2enmod rewrite
 </code></pre>
+</div>
 
 <p>The first module is the only one truly necessary to get SSL working, but the other modules will be used in our example configuration, so it is a good idea to add them now.</p>
 
 <p>Next, you will need to create/modify the VirtualHost files located at: ‘/etc/apache2/sites-available’.  By default, there are two files, ‘000-default.conf’ and ‘default-ssl.conf’.<br />
-The ‘000-default.conf’ file is configured to serve http, and the ‘default-ssl.conf’ is configured for SSL.  </p>
+The ‘000-default.conf’ file is configured to serve http, and the ‘default-ssl.conf’ is configured for SSL.</p>
 
 <p>Note: the ‘default-ssl.conf’ site is not enabled by default. You can enable it with the following command:</p>
 
-<pre><code># a2ensite default-ssl.conf
+<div class="highlighter-rouge"><pre class="highlight"><code># a2ensite default-ssl.conf
 </code></pre>
+</div>
 
 <p>There are many ways to configure SSL, but the example we will show you redirects all http traffic to https (this is why we enabled the ‘rewrite’ Apache module).<br />
 Below is an example (which you can use unmodified) for the ‘000-default.conf’ file:</p>
 
-<pre><code>&lt;VirtualHost *:80&gt;
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;VirtualHost *:80&gt;
     ReWriteEngine on
     ReWriteCond %{SERVER_PORT} !^443$
     ReWriteRule ^/(.*) https://%{HTTP_HOST}/$1 [NC,R,L]
 &lt;/VirtualHost&gt;
 </code></pre>
+</div>
 
 <p>Next, is the ‘default-ssl.conf’ file (This one is more involved).</p>
 
-<pre><code>&lt;IfModule mod_ssl.c&gt;
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;IfModule mod_ssl.c&gt;
 &lt;VirtualHost _default_:443&gt;
     ServerName yourdomain
     ServerAlias www.yourdomain
@@ -217,15 +222,17 @@ Below is an example (which you can use unmodified) for the ‘000-default.conf�
 &lt;/VirtualHost&gt;
 &lt;/IfModule&gt;
 </code></pre>
+</div>
 
 <p>Key points of interest are the lines which start with ‘SSLCertificate’, you will want to make sure that they are pointing to the files you created/obtained in steps one and two.
 The line that starts with ‘Header’ will help prevent visitors to your site from connecting in the future via http, and is a good security move. You will need to modify this 
 example to match your domain/website.</p>
 
-<p>Once you are satified the these files, you’ll need to restart Apache to make your changes effective.  </p>
+<p>Once you are satified the these files, you’ll need to restart Apache to make your changes effective.</p>
 
-<pre><code># service apache2 restart
+<div class="highlighter-rouge"><pre class="highlight"><code># service apache2 restart
 </code></pre>
+</div>
 
 <p>Note: If your private key is encrypted, then you will be prompted for your password.</p>
 
@@ -233,7 +240,7 @@ example to match your domain/website.</p>
 
 <p>Now it is time to verify that your site is working with SSL.  Certainly, visiting the site is a good step, but there is a tool available online with will give your site’s SSL Configuration a thorough testing:</p>
 
-<p><a href="https://ssllabs.com/ssltest">SSL Labs - SSL Test</a> </p>
+<p><a href="https://ssllabs.com/ssltest">SSL Labs - SSL Test</a></p>
 
 
   </article>
@@ -316,7 +323,7 @@ example to match your domain/website.</p>
         <h4>Darknet</h4>
         <ul class="list-unstyled">
           <li>Hidden Service (Tor): <a href="http://5i3gqg3jz7zs6x62.onion">5i3gqg3jz7zs6x62.onion</a></li>
-          <li>Eepsite (i2p): <a href="http://cryptopartyutah.i2p">cryptopartyutah.i2p</a></li>
+          <li>Eepsite (i2p): <a href="http://utah.cryptoparty.i2p">utah.cryptoparty.i2p</a></li>
         </ul>
       </div>
 

@@ -3,9 +3,9 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Setting up a Tor Hidden Service</title>
+    <title>Darknet Changes</title>
     <meta name="description" content="Party like it's December 31st, 1983">
-    <link rel="canonical" href="http://cryptopartyutah.org/howto/2014/10/10/setting-up-a-tor-hidden-service/">
+    <link rel="canonical" href="http://cryptopartyutah.org/announcements/2015/11/26/darknet-changes/">
 
     <link rel="icon" type="image/png" href="/favicon.png" />
 
@@ -56,108 +56,17 @@
           <div class="row">
 
   <header class="post-header">
-    <h1>Setting up a Tor Hidden Service</h1>
-    <p class="meta">Oct 10, 2014</p>
+    <h1>Darknet Changes</h1>
+    <p class="meta">Nov 26, 2015</p>
   </header>
 
   <article class="post-content">
-  <h4 id="why-run-a-hidden-service">Why run a hidden service?</h4>
+  <p>We’ve taken advantage of the holiday to migrate our darknet sites.  As part of the process, we rekeyed our i2p eepsite/hidden service.  As a result it is necessary to change our service name to <a href="http://utah.cryptparty.i2p">utah.cryptoparty.i2p</a>.</p>
 
-<p>It has been said that the printing press taught everyone how to read, and that the Internet taught everyone how to write.  While that is debatable, it is certainly true that these technologies 
-have dramatically impacted humanity’s ability to express and comsume ideas.</p>
+<p>Please update your bookmarks/addressbooks.</p>
 
-<p>A common approach to obtaining candid information is to provide a way for people to communicate anonymously.  As Oscar Wilde said, “Man is least himself when he talks in his own person. Give 
-him a mask, and he will tell you the truth.”  Tor hidden services provide a means for people to communicate anonymously, and speak with candor.</p>
+<p>We are currently planning events for next year, and should announce our next event before the end of the year.</p>
 
-<h4 id="what-do-you-need-to-run-a-hidden-service">What do you need to run a hidden service?</h4>
-
-<p>While you can run a hidden service on any computer, and nearly any operating system, it is recommended (for security reasons) to use open source software.  The reason is that open source software
-can be audited, and changed by the community that uses it, and is therefore more trustworthy than proprietary software (where they may have be beholden to other groups and interests).
-This tutorial describes how to use software provided by the Debian and Tor Projects to create a hidden service.</p>
-
-<p>It is generally a good idea (for availablity) to place the service on a 
-system with a ‘always on’ connection to the Internet.  You should be mindful of any acceptable use policies if you plan on hosting the service with a provider.</p>
-
-<h4 id="step-1-install-tor">Step 1: Install Tor</h4>
-
-<p>Anyone who has spent even a limited amount of time with debian-based systems are familiar with its software package management system.  Instead of installing Tor from source (which is possible), 
-I prefer to use package-management whenever possible (easier to update and maintain).</p>
-
-<p>While Tor is available from the default debian project repositories, it is usually not as up to date as from the Tor Project repositories.  So we will first install the Tor Project’s repositories into the Debian package management system.</p>
-
-<p>The default repositories are found in the /etc/apt/sources.list file.  You can add the Tor Project’s repository by adding the following line to the file:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>deb     http://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
-</code></pre>
-</div>
-
-<p>You should replace the <distribution> label with the codename for your version of Debian (for example wheezy for Debian 7.x).</distribution></p>
-
-<p>The packages are signed using the Tor Project’s GPG Keys.  So we will need to add the key to Apt in order to use the repository.  Use the following commands:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code> # gpg --keyserver keys.gnupg.net --recv 886DDD89
- # gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
-</code></pre>
-</div>
-
-<p>Now we need to update apt now that we have added the Tor project’s repositories:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code> # apt-get update
-</code></pre>
-</div>
-
-<p>With the repository updated, we will install a package which makes keepig the Tor project’s signing keys up to date:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code> # apt-get install deb.torproject.org-keyring
-</code></pre>
-</div>
-
-<p>Finally,  we install Tor:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code> # apt-get install tor
-</code></pre>
-</div>
-
-<p>You should now have the Tor service running on your system.  Time for the next step.</p>
-
-<h4 id="step-2-install-a-web-server">Step 2: Install a Web Server</h4>
-
-<p>In most cases, a hidden service is just a website accessible through Tor.  As with any other website, we will need a webserver.  Any webserver will do the job.</p>
-
-<p>I would suggest configuring the webserver to only listen to requests from the local server.  The reason is that this will force all interaction with the server through the Tor network.</p>
-
-<p>Because there are many different webservers, and several tutorials available, I will not go into any further details on how to configure them.</p>
-
-<p>Note: Your hidden service can be any service commonly available on the Internet (ssh, IRC, etc).</p>
-
-<h4 id="step-3-configure-the-hidden-service">Step 3: Configure the Hidden Service</h4>
-
-<p>Now that you have Tor and a webserver installed and running, its time to configure the hidden service.  In order to do this, we will need to reconfigure the tor service;  The tor service is configured
-using the /etc/tor/torrc file.  Inside the torrc file there is a section for ‘location-hidden services.’  There will be some example configurations for hidden services (commented out).  They will look
-similar to this (uncomment them):</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code># HiddenServiceDir /var/lib/tor/hidden_service/
-# HiddenServicePort 80 127.0.0.1:8080
-</code></pre>
-</div>
-
-<p>The HiddenServiceDir directive points to the path where the ‘pivate_key’ and the ‘hostname’ files for the hidden service exist.  The ‘pivate_key’ is a secret which you should protect from disclosure, and
-the ‘hostname’ file has the .onion address that people will use to access the hidden service.  Both of theses files will be generated by the tor service. It is important that the ‘debian-tor’ user have 
-full permissions to this directory.  I would suggest placing the hidden service directory in ‘/var/lib/tor/’.</p>
-
-<p>The HiddenServicePort directive identifies the port the service will be accessible on inside the tor network, and the local address and port of the service.</p>
-
-<p>After modifying the torrc file, and creating the directory, you will need to restart the tor service in order to make the hidden service active.</p>
-
-<h4 id="conclusion">Conclusion</h4>
-
-<p>You should now have a working Tor hidden-service (the address for your hidden service can be found in the ‘hostname’ file mentioned above).</p>
-
-<hr />
-
-<h4 id="references">Reference(s):</h4>
-
-<p><a href="https://www.torproject.org/docs/tor-hidden-service.html.en">Configuring Hidden Services for Tor</a></p>
 
   </article>
 

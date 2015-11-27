@@ -7,6 +7,20 @@
     <atom:link href="http://cryptopartyutah.org/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Darknet Changes</title>
+        <description>&lt;p&gt;We’ve taken advantage of the holiday to migrate our darknet sites.  As part of the process, we rekeyed our i2p eepsite/hidden service.  As a result it is necessary to change our service name to &lt;a href=&quot;http://utah.cryptparty.i2p&quot;&gt;utah.cryptoparty.i2p&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Please update your bookmarks/addressbooks.&lt;/p&gt;
+
+&lt;p&gt;We are currently planning events for next year, and should announce our next event before the end of the year.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 26 Nov 2015 15:00:00 -0700</pubDate>
+        <link>http://cryptopartyutah.org/announcements/2015/11/26/darknet-changes/</link>
+        <guid isPermaLink="true">http://cryptopartyutah.org/announcements/2015/11/26/darknet-changes/</guid>
+      </item>
+    
+      <item>
         <title>GPG Presentation</title>
         <description>&lt;p&gt;I am posting links to the slides and practical exercise for those of you who attended the GPG Presentation tonight at the SLC Linux User Group.&lt;/p&gt;
 
@@ -15,7 +29,7 @@
   &lt;li&gt;&lt;a href=&quot;/slides/GPG_Practical_Exercise.txt&quot;&gt;Practical Exercise&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Next up, DEFCON 23! &lt;/p&gt;
+&lt;p&gt;Next up, DEFCON 23!&lt;/p&gt;
 
 &lt;p&gt;After that we will be organizing another CryptoParty in September.&lt;/p&gt;
 
@@ -27,11 +41,11 @@
     
       <item>
         <title>Crypto &amp; Privacy at DEF CON 23</title>
-        <description>&lt;p&gt;DEF CON is the world’s largest hacker conference held annually in the first part of August in Las Vegas.  While not technically in Utah, DEF CON is near enough for people in the state to attend.  This year’s conference will be held at Bally’s on the 6th through 9th of August. &lt;/p&gt;
+        <description>&lt;p&gt;DEF CON is the world’s largest hacker conference held annually in the first part of August in Las Vegas.  While not technically in Utah, DEF CON is near enough for people in the state to attend.  This year’s conference will be held at Bally’s on the 6th through 9th of August.&lt;/p&gt;
 
-&lt;p&gt;DEF CON has several ‘villages’ that focus on specific interests (hardware hacking, lockpicking, etc), among these will be the Crypto &amp;amp; Privacy Village.  Last year, the Crypto and Privacy Village held several presentations, workshops, dicussions, and keysigning parties (think of it as a super crypto party). &lt;/p&gt;
+&lt;p&gt;DEF CON has several ‘villages’ that focus on specific interests (hardware hacking, lockpicking, etc), among these will be the Crypto &amp;amp; Privacy Village.  Last year, the Crypto and Privacy Village held several presentations, workshops, dicussions, and keysigning parties (think of it as a super crypto party).&lt;/p&gt;
 
-&lt;p&gt;This is a great opportunity to learn how to protect yourself online, and associate with others who are passionate about security and privacy. &lt;/p&gt;
+&lt;p&gt;This is a great opportunity to learn how to protect yourself online, and associate with others who are passionate about security and privacy.&lt;/p&gt;
 
 &lt;p&gt;For more information, checkout: &lt;a href=&quot;https://cryptovillage.org&quot;&gt;CryptoVillage&lt;/a&gt;&lt;/p&gt;
 
@@ -44,7 +58,7 @@
     
       <item>
         <title>Salt Lake CryptoParty</title>
-        <description>&lt;p&gt;Utah’s first CryptoParty will be held at the 801Labs hackerspace in Salt Lake City on Saturday, April 25th.  The party will start at 9 AM and go all day. &lt;/p&gt;
+        <description>&lt;p&gt;Utah’s first CryptoParty will be held at the 801Labs hackerspace in Salt Lake City on Saturday, April 25th.  The party will start at 9 AM and go all day.&lt;/p&gt;
 
 &lt;h4 id=&quot;presentations-include&quot;&gt;Presentations include:&lt;/h4&gt;
 
@@ -59,12 +73,12 @@
 
 &lt;p&gt;There will be a key signing party/social after the presentations.&lt;/p&gt;
 
-&lt;p&gt;The party is being hosted and sponsored by DC801/801Labs. The hackerspace is located at: &lt;/p&gt;
+&lt;p&gt;The party is being hosted and sponsored by DC801/801Labs. The hackerspace is located at:&lt;/p&gt;
 
 &lt;p&gt;353 East 200 South Suite #B &lt;br /&gt;
 Salt Lake City, UT 84111&lt;/p&gt;
 
-&lt;p&gt;For more information, please visit the party’s website at: &lt;a href=&quot;https://slcrypto.com&quot;&gt;slcrypto.com&lt;/a&gt;.  &lt;/p&gt;
+&lt;p&gt;For more information, please visit the party’s website at: &lt;a href=&quot;https://slcrypto.com&quot;&gt;slcrypto.com&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Hope to see everyone there!&lt;/p&gt;
 </description>
@@ -81,13 +95,13 @@ Salt Lake City, UT 84111&lt;/p&gt;
 have dramatically impacted humanity’s ability to express and comsume ideas.&lt;/p&gt;
 
 &lt;p&gt;A common approach to obtaining candid information is to provide a way for people to communicate anonymously.  As Oscar Wilde said, “Man is least himself when he talks in his own person. Give 
-him a mask, and he will tell you the truth.”  Tor hidden services provide a means for people to communicate anonymously, and speak with candor.  &lt;/p&gt;
+him a mask, and he will tell you the truth.”  Tor hidden services provide a means for people to communicate anonymously, and speak with candor.&lt;/p&gt;
 
 &lt;h4 id=&quot;what-do-you-need-to-run-a-hidden-service&quot;&gt;What do you need to run a hidden service?&lt;/h4&gt;
 
 &lt;p&gt;While you can run a hidden service on any computer, and nearly any operating system, it is recommended (for security reasons) to use open source software.  The reason is that open source software
 can be audited, and changed by the community that uses it, and is therefore more trustworthy than proprietary software (where they may have be beholden to other groups and interests).
-This tutorial describes how to use software provided by the Debian and Tor Projects to create a hidden service.  &lt;/p&gt;
+This tutorial describes how to use software provided by the Debian and Tor Projects to create a hidden service.&lt;/p&gt;
 
 &lt;p&gt;It is generally a good idea (for availablity) to place the service on a 
 system with a ‘always on’ connection to the Internet.  You should be mindful of any acceptable use policies if you plan on hosting the service with a provider.&lt;/p&gt;
@@ -95,37 +109,42 @@ system with a ‘always on’ connection to the Internet.  You should be mindful
 &lt;h4 id=&quot;step-1-install-tor&quot;&gt;Step 1: Install Tor&lt;/h4&gt;
 
 &lt;p&gt;Anyone who has spent even a limited amount of time with debian-based systems are familiar with its software package management system.  Instead of installing Tor from source (which is possible), 
-I prefer to use package-management whenever possible (easier to update and maintain).  &lt;/p&gt;
+I prefer to use package-management whenever possible (easier to update and maintain).&lt;/p&gt;
 
 &lt;p&gt;While Tor is available from the default debian project repositories, it is usually not as up to date as from the Tor Project repositories.  So we will first install the Tor Project’s repositories into the Debian package management system.&lt;/p&gt;
 
 &lt;p&gt;The default repositories are found in the /etc/apt/sources.list file.  You can add the Tor Project’s repository by adding the following line to the file:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;deb     http://deb.torproject.org/torproject.org &amp;lt;DISTRIBUTION&amp;gt; main
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;deb     http://deb.torproject.org/torproject.org &amp;lt;DISTRIBUTION&amp;gt; main
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-&lt;p&gt;You should replace the &lt;distribution&gt; label with the codename for your version of Debian (for example wheezy for Debian 7.x). &lt;/distribution&gt;&lt;/p&gt;
+&lt;p&gt;You should replace the &lt;distribution&gt; label with the codename for your version of Debian (for example wheezy for Debian 7.x).&lt;/distribution&gt;&lt;/p&gt;
 
 &lt;p&gt;The packages are signed using the Tor Project’s GPG Keys.  So we will need to add the key to Apt in order to use the repository.  Use the following commands:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; # gpg --keyserver keys.gnupg.net --recv 886DDD89
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; # gpg --keyserver keys.gnupg.net --recv 886DDD89
  # gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Now we need to update apt now that we have added the Tor project’s repositories:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; # apt-get update
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; # apt-get update
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;With the repository updated, we will install a package which makes keepig the Tor project’s signing keys up to date:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; # apt-get install deb.torproject.org-keyring
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; # apt-get install deb.torproject.org-keyring
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Finally,  we install Tor:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; # apt-get install tor
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; # apt-get install tor
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;You should now have the Tor service running on your system.  Time for the next step.&lt;/p&gt;
 
@@ -145,21 +164,22 @@ I prefer to use package-management whenever possible (easier to update and maint
 using the /etc/tor/torrc file.  Inside the torrc file there is a section for ‘location-hidden services.’  There will be some example configurations for hidden services (commented out).  They will look
 similar to this (uncomment them):&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;# HiddenServiceDir /var/lib/tor/hidden_service/
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# HiddenServiceDir /var/lib/tor/hidden_service/
 # HiddenServicePort 80 127.0.0.1:8080
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;The HiddenServiceDir directive points to the path where the ‘pivate_key’ and the ‘hostname’ files for the hidden service exist.  The ‘pivate_key’ is a secret which you should protect from disclosure, and
 the ‘hostname’ file has the .onion address that people will use to access the hidden service.  Both of theses files will be generated by the tor service. It is important that the ‘debian-tor’ user have 
 full permissions to this directory.  I would suggest placing the hidden service directory in ‘/var/lib/tor/’.&lt;/p&gt;
 
-&lt;p&gt;The HiddenServicePort directive identifies the port the service will be accessible on inside the tor network, and the local address and port of the service.  &lt;/p&gt;
+&lt;p&gt;The HiddenServicePort directive identifies the port the service will be accessible on inside the tor network, and the local address and port of the service.&lt;/p&gt;
 
 &lt;p&gt;After modifying the torrc file, and creating the directory, you will need to restart the tor service in order to make the hidden service active.&lt;/p&gt;
 
 &lt;h4 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h4&gt;
 
-&lt;p&gt;You should now have a working Tor hidden-service (the address for your hidden service can be found in the ‘hostname’ file mentioned above).  &lt;/p&gt;
+&lt;p&gt;You should now have a working Tor hidden-service (the address for your hidden service can be found in the ‘hostname’ file mentioned above).&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -233,7 +253,7 @@ you can use different managers with the same list file.&lt;/p&gt;
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 
 &lt;p&gt;Implementing good password management can greatly improve your online security.
-Password managers can go a long way to make it easier to be more secure online.  &lt;/p&gt;
+Password managers can go a long way to make it easier to be more secure online.&lt;/p&gt;
 
 &lt;p&gt;Find one that works for you, and use it.&lt;/p&gt;
 
@@ -265,13 +285,14 @@ below.&lt;/p&gt;
 &lt;p&gt;We will be using OpenSSL for this step.  There are a number of options (which we will explain) available.  We will start with the following
 command:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;# openssl req -new -newkey rsa:4096 -keyout yourdomain.key -out yourdomain.csr
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# openssl req -new -newkey rsa:4096 -keyout yourdomain.key -out yourdomain.csr
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Explanation:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;‘req -new’ tells openssl that we will be creating a CSR &lt;/li&gt;
+  &lt;li&gt;‘req -new’ tells openssl that we will be creating a CSR&lt;/li&gt;
   &lt;li&gt;‘-newkey’ we will also be creating a private key&lt;/li&gt;
   &lt;li&gt;‘rsa:4096’ the private key will be a RSA key with a keysize of 4096 bits (Note: the minimum keysize currently accepted by certificate authorities is 2048)&lt;/li&gt;
   &lt;li&gt;‘-keyout yourdomain.key’ specify the filename of the private key (Please change ‘yourdomain’ to your domain name)&lt;/li&gt;
@@ -284,7 +305,7 @@ then include ‘-nodes’ after the ‘rsa:4096’ option.&lt;/p&gt;
 &lt;p&gt;OpenSSL will prompt you for a passphase for your key (unless you included the ‘-nodes’ option), and ask you for additional information (some of which is optional).&lt;br /&gt;
 Once you finish, you will have a private key and CSR.&lt;/p&gt;
 
-&lt;p&gt;On Debian/Ubuntu, you will generally want to store your private key in the ‘/etc/ssl/private’ directory. &lt;/p&gt;
+&lt;p&gt;On Debian/Ubuntu, you will generally want to store your private key in the ‘/etc/ssl/private’ directory.&lt;/p&gt;
 
 &lt;p&gt;You will use the CSR in the next step to obtain your certificate.&lt;/p&gt;
 
@@ -292,7 +313,7 @@ Once you finish, you will have a private key and CSR.&lt;/p&gt;
 
 &lt;p&gt;A signed certificate is used by a browser to authenticate, and help setup secure communications using SSL/TLS.  A Certificate Authority (CA) is a trusted organization
 which is recognized by most browsers to authenticate sites using SSL/TLS.  In order to get a CA to generate a signed certificate you must verify your information, and 
-usually pay a fee for their service (Note: there are some ‘free’ certificate authorities).  &lt;/p&gt;
+usually pay a fee for their service (Note: there are some ‘free’ certificate authorities).&lt;/p&gt;
 
 &lt;p&gt;Generally, there are three ‘levels’ of verification/validation by CAs:&lt;/p&gt;
 
@@ -310,20 +331,21 @@ their chain of trust.&lt;/p&gt;
 &lt;p&gt;As an alternative, you can ‘self-sign’ and generate your own certificate.  This is simpler and usually cheaper that getting one from a CA, but will most probably 
 cause a visitor’s browser to alert and warn of ‘an untrusted site’.  To generate your own certificate, use OpenSSL as follows:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;# openssl x509 -req -days 365 -in yourdomain.csr -signkey yourdomain.key -out yourdomain.crt
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# openssl x509 -req -days 365 -in yourdomain.csr -signkey yourdomain.key -out yourdomain.crt
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Explanation:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;‘x509 -req’ tells openssl that we will be creating a signed-certificate&lt;/li&gt;
   &lt;li&gt;‘-days 365’ our certificate will be valid for one year (most certificates are signed by CAs for the length of period)&lt;/li&gt;
-  &lt;li&gt;‘-in yourdomain.csr’ OpenSSL will use the CSR you generated in Step One &lt;/li&gt;
+  &lt;li&gt;‘-in yourdomain.csr’ OpenSSL will use the CSR you generated in Step One&lt;/li&gt;
   &lt;li&gt;‘-signkey yourdomain.key’ OpenSSL will use your private key to ‘sign’ the certificate&lt;/li&gt;
   &lt;li&gt;‘-out yourdomain.crt’ specify the filename of the certificate&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Once you have your certificate(s) you will generally want to keep them in ‘certs’ directory.  On Debian/Ubuntu systems the ‘certs’ directory is, ‘/etc/ssl/certs’.  &lt;/p&gt;
+&lt;p&gt;Once you have your certificate(s) you will generally want to keep them in ‘certs’ directory.  On Debian/Ubuntu systems the ‘certs’ directory is, ‘/etc/ssl/certs’.&lt;/p&gt;
 
 &lt;h3 id=&quot;step-3-configuring-your-webserver-to-use-ssl&quot;&gt;Step 3: Configuring your webserver to use SSL&lt;/h3&gt;
 
@@ -333,34 +355,37 @@ cause a visitor’s browser to alert and warn of ‘an untrusted site’.  To ge
 
 &lt;p&gt;You will need to enable a few Apache modules in order to use SSL/TLS.  You can enable these modules with the following commands:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;# a2enmod ssl
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# a2enmod ssl
 # a2enmod headers
 # a2enmod rewrite
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;The first module is the only one truly necessary to get SSL working, but the other modules will be used in our example configuration, so it is a good idea to add them now.&lt;/p&gt;
 
 &lt;p&gt;Next, you will need to create/modify the VirtualHost files located at: ‘/etc/apache2/sites-available’.  By default, there are two files, ‘000-default.conf’ and ‘default-ssl.conf’.&lt;br /&gt;
-The ‘000-default.conf’ file is configured to serve http, and the ‘default-ssl.conf’ is configured for SSL.  &lt;/p&gt;
+The ‘000-default.conf’ file is configured to serve http, and the ‘default-ssl.conf’ is configured for SSL.&lt;/p&gt;
 
 &lt;p&gt;Note: the ‘default-ssl.conf’ site is not enabled by default. You can enable it with the following command:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;# a2ensite default-ssl.conf
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# a2ensite default-ssl.conf
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;There are many ways to configure SSL, but the example we will show you redirects all http traffic to https (this is why we enabled the ‘rewrite’ Apache module).&lt;br /&gt;
 Below is an example (which you can use unmodified) for the ‘000-default.conf’ file:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;VirtualHost *:80&amp;gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;VirtualHost *:80&amp;gt;
     ReWriteEngine on
     ReWriteCond %{SERVER_PORT} !^443$
     ReWriteRule ^/(.*) https://%{HTTP_HOST}/$1 [NC,R,L]
 &amp;lt;/VirtualHost&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Next, is the ‘default-ssl.conf’ file (This one is more involved).&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;IfModule mod_ssl.c&amp;gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;IfModule mod_ssl.c&amp;gt;
 &amp;lt;VirtualHost _default_:443&amp;gt;
     ServerName yourdomain
     ServerAlias www.yourdomain
@@ -401,15 +426,17 @@ Below is an example (which you can use unmodified) for the ‘000-default.conf�
 &amp;lt;/VirtualHost&amp;gt;
 &amp;lt;/IfModule&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Key points of interest are the lines which start with ‘SSLCertificate’, you will want to make sure that they are pointing to the files you created/obtained in steps one and two.
 The line that starts with ‘Header’ will help prevent visitors to your site from connecting in the future via http, and is a good security move. You will need to modify this 
 example to match your domain/website.&lt;/p&gt;
 
-&lt;p&gt;Once you are satified the these files, you’ll need to restart Apache to make your changes effective.  &lt;/p&gt;
+&lt;p&gt;Once you are satified the these files, you’ll need to restart Apache to make your changes effective.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;# service apache2 restart
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# service apache2 restart
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Note: If your private key is encrypted, then you will be prompted for your password.&lt;/p&gt;
 
@@ -417,7 +444,7 @@ example to match your domain/website.&lt;/p&gt;
 
 &lt;p&gt;Now it is time to verify that your site is working with SSL.  Certainly, visiting the site is a good step, but there is a tool available online with will give your site’s SSL Configuration a thorough testing:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://ssllabs.com/ssltest&quot;&gt;SSL Labs - SSL Test&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ssllabs.com/ssltest&quot;&gt;SSL Labs - SSL Test&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 05 Jun 2014 01:46:00 -0600</pubDate>
