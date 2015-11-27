@@ -10,3 +10,4 @@ username: cdhop
 markdown: kramdown
 permalink: pretty
 paginate: 1
+gems: [jekyll-paginate]
