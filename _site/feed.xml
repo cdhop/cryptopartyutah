@@ -119,7 +119,7 @@ I prefer to use package-management whenever possible (easier to update and maint
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;You should replace the &lt;distribution&gt; label with the codename for your version of Debian (for example wheezy for Debian 7.x).&lt;/distribution&gt;&lt;/p&gt;
+&lt;p&gt;You should replace the &lt;DISTRIBUTION&gt; label with the codename for your version of Debian (for example wheezy for Debian 7.x).&lt;/DISTRIBUTION&gt;&lt;/p&gt;
 
 &lt;p&gt;The packages are signed using the Tor Project’s GPG Keys.  So we will need to add the key to Apt in order to use the repository.  Use the following commands:&lt;/p&gt;
 
