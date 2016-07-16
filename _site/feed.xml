@@ -7,6 +7,18 @@
     <atom:link href="http://cryptopartyutah.org/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Lets Encrypt and TLS Optimization</title>
+        <description>&lt;p&gt;Here are the slides for my presentation at OpenWest 2016 - ‘Using Let’s Encrypt and Optimizing TLS’&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/slides/letsencrypt_optimizingtls.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 15 Jul 2016 16:00:00 -0600</pubDate>
+        <link>http://cryptopartyutah.org/presentations/2016/07/15/letsencrypttls/</link>
+        <guid isPermaLink="true">http://cryptopartyutah.org/presentations/2016/07/15/letsencrypttls/</guid>
+      </item>
+    
+      <item>
         <title>Darknet Changes</title>
         <description>&lt;p&gt;We’ve taken advantage of the holiday to migrate our darknet sites.  As part of the process, we rekeyed our i2p eepsite/hidden service.  As a result it is necessary to change our service name to &lt;a href=&quot;http://utah.cryptparty.i2p&quot;&gt;utah.cryptoparty.i2p&lt;/a&gt;.&lt;/p&gt;
 
@@ -119,7 +131,7 @@ I prefer to use package-management whenever possible (easier to update and maint
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;You should replace the &lt;DISTRIBUTION&gt; label with the codename for your version of Debian (for example wheezy for Debian 7.x).&lt;/DISTRIBUTION&gt;&lt;/p&gt;
+&lt;p&gt;You should replace the &lt;distribution&gt; label with the codename for your version of Debian (for example wheezy for Debian 7.x).&lt;/distribution&gt;&lt;/p&gt;
 
 &lt;p&gt;The packages are signed using the Tor Project’s GPG Keys.  So we will need to add the key to Apt in order to use the repository.  Use the following commands:&lt;/p&gt;
 
