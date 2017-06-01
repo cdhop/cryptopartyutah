@@ -31,3 +31,4 @@ There are a many privacy related resources available on the Internet.  Here is o
 * [CryptoParty](https://cryptoparty.io) - Party like it's December 31st, 1983
 * [The Intercept: Micah Lee](https://firstlook.org/theintercept/staff/micah-lee/) - Former EFF staffer who writes about technical threats to your privacy, and what you can do to protect yourself.
 * [ShoreTel Cryptography and Network Security Guides](https://www.shoretel.com/web-communication-cryptography-and-network-security) - A collection of several security/cryptography resources 
+* [Cyber Security Education - How to Become Cryptographer](http://www.cybersecurityeducation.org/careers/cryptographer/) - Cryptographer Career Path Guide
